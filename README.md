@@ -3,11 +3,11 @@
 go-localconfig is provides save/load configuration from local filesystem.  
 configuration file is saved to `$HOME/.{appName}/{fileName}` .
 
-[![Build Status](https://travis-ci.org/takecy/go-localconfig.svg)](https://travis-ci.org/takecy/go-localconfig)
-![](https://img.shields.io/badge/language-go-blue.svg?style=flat)
+![](https://img.shields.io/travis/takecy/go-localconfig.svg?style=flat-square)
 
-![](https://img.shields.io/badge/golang-1.5.2+-blue.svg?style=flat)
-[![GoDoc](https://godoc.org/github.com/takecy/go-localconfig/conf?status.svg)](https://godoc.org/github.com/takecy/go-localconfig/conf)
+![](https://img.shields.io/badge/language-go-blue.svg?style=flat-square)
+![](https://img.shields.io/badge/golang-1.5.2+-blue.svg?style=flat-square)
+[![](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/takecy/go-localconfig)
 
 ## Install
 ```shell
