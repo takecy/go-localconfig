@@ -1,6 +1,6 @@
 /*
- Package localconf is local configuration.
- Save configuration to $HOME/.{appName}/{fileName}.
+Package localconf is local configuration.
+Save configuration to $HOME/.{appName}/{fileName}.
 */
 package localconf
 

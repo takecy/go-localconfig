@@ -10,6 +10,7 @@ import (
 
 var conf *localconf.Conf
 
+// AppConfig is config
 type AppConfig struct {
 	UserID int
 	Token  string
