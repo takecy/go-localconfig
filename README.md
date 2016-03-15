@@ -6,9 +6,9 @@ configuration file is saved to `$HOME/.{appName}/{fileName}` .
 ![](https://img.shields.io/travis/takecy/go-localconfig.svg?style=flat-square)
 [![Go Report Card](https://goreportcard.com/badge/github.com/takecy/go-localconfig)](https://goreportcard.com/report/github.com/takecy/go-localconfig)
 
-![](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
-![](https://img.shields.io/badge/golang-1.5.3-blue.svg?style=flat-square)
+![](https://img.shields.io/badge/golang-1.6-blue.svg?style=flat-square)
 [![](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/takecy/go-localconfig)
+![](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 ## Install
 ```shell
@@ -43,11 +43,16 @@ func load() (c SomeConfig, err error) {
 see more [Example](./example/example.go)
 
 
-## Testing
-```shell
-$ go get github.com/smartystreets/goconvey/convey
+<br/>
+## Development
+vendoring by [godep](https://github.com/tools/godep).
+```
+$ git clone git@github.com:takecy/go-localconfig.git
+$ git go-localconfig
+$ go get github.com/tools/godep
+$ godep restore
 $ go test ./...
 ```
 
 # License
-MIT
+[MIT](./LICENSE)
