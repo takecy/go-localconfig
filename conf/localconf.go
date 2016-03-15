@@ -38,6 +38,10 @@ func NewConfig(appName, fileName string) *Conf {
 
 // init local config
 func (c *Conf) initConfig() {
+	if c.Exist() {
+		return
+	}
+
 	err := os.MkdirAll(c.dirPath, 0755)
 	if err != nil {
 		panic(err)
