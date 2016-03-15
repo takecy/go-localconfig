@@ -54,5 +54,5 @@ $ godep restore
 $ go test ./...
 ```
 
-# License
+## License
 [MIT](./LICENSE)
